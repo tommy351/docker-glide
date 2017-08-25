@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.9
 
 ENV GLIDE_VERSION 0.12.3
 ENV GLIDE_ARCH linux-amd64
