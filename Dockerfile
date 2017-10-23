@@ -1,6 +1,6 @@
 FROM golang:1.6
 
-ENV GLIDE_VERSION 0.12.3
+ENV GLIDE_VERSION 0.13.0
 ENV GLIDE_ARCH linux-amd64
 
 RUN mkdir -p $GOPATH/bin && \
