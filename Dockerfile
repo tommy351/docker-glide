@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:1.10-alpine
 
 ENV GLIDE_VERSION 0.13.0
 ENV GLIDE_ARCH linux-amd64
